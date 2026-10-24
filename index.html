@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Rishabh Garg – B.Tech AI/ML Student">
+  <title>Rishabh Garg | Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico">
+
+  <!-- Stylesheet (create this next) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER / NAVIGATION ========== -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="logo">RishabhGarg</a>
+
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-title">Rishabh Garg</h1>
+        <h2 class="hero-subtitle">B.Tech AI/ML Student</h2>
+        <p class="hero-text">First-year B.Tech student specializing in Artificial Intelligence and Machine Learning, curious about building intelligent and useful things.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="assets/resume.pdf" class="btn btn-outline" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-image">
+            <img src="Assets/Images/Profile.png" alt="Portrait of Rishabh Garg" loading="lazy">
+          </div>
+          <div class="about-text">
+            <p>I am Rishabh Garg, a first-year B.Tech student pursuing Artificial Intelligence and Machine Learning at KIET Deemed to be University.</p>
+            <p>I enjoy building things with code, from C++ and Python programs to web projects like my Netflix clone.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+
+          <article class="skill-card">
+            <h3>Programming</h3>
+            <ul>
+              <li>C++</li>
+              <li>Python</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Web Development</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </article>
+         
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <img src="Assets/Images/netflix-clone.jfif" alt="Screenshot of Netflix Clone website" loading="lazy">
+            <div class="project-body">
+              <h3>Netflix Clone</h3>
+              <p>A responsive Netflix-style website recreating the landing page and browsing layout.</p>
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://netflix-clone-rouge-tau.vercel.app/" target="_blank" rel="noopener">Live Demo</a>
+                <a href="https://github.com/rishabh-grg" target="_blank" rel="noopener">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE / EDUCATION ========== -->
+    <section id="experience" class="section experience">
+      <div class="container">
+        <h2 class="section-title">Education &amp; Experience</h2>
+        <div class="timeline">
+
+          <article class="timeline-item">
+            <time datetime="2026">2026 – Present</time>
+            <h3>B.Tech in Artificial Intelligence &amp; Machine Learning</h3>
+            <p class="timeline-org">KIET Deemed to be University</p>
+            <p>Currently in first year, learning the fundamentals of programming, mathematics and AI.</p>
+          </article>
+
+          <article class="timeline-item">
+            <time datetime="2024">2024 – 2026</time>
+            <h3>Class XII</h3>
+            <p class="timeline-org">Surevin International School</p>
+            <p>CBSE Board</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-grid">
+
+          <div class="contact-info">
+            <p>Have a project in mind or just want to say hi? Fill in the form and your message will be sent straight to my inbox.</p>
+          </div>
+
+          <form class="contact-form" id="contact-form" action="#" method="POST">
+            <!-- TODO: replace action="#" with your form service endpoint (e.g. Formspree / Web3Forms)
+                 so submissions are emailed to you. -->
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What is this about?">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Rishabh Garg. All rights reserved.</p>
+      <ul class="social-links">
+        <li><a href="https://github.com/rishabh-grg" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/rishabh-garg-bb240441b/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Script (create this later) -->
+  <script src="js/script.js"></script>
+</body>
+</html>
