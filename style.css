@@ -27,6 +27,21 @@
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1020;
+    --surface: #151a30;
+    --ink: #eef0fa;
+    --muted: #9ba2bf;
+    --line: #262c48;
+    --accent: #7b92ff;
+    --accent-ink: #0d1020;
+    --accent-2: #3dd6c8;
+    --glass: rgba(13, 16, 32, 0.8);
+    --dot: rgba(238, 240, 250, 0.08);
+    --shadow: 0 10px 30px rgba(123, 146, 255, 0.25);
+  }
+}
 
 /* ---------- 2. Reset & base ---------- */
 *,
@@ -719,14 +734,21 @@ h3 {
 }
 
 .social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-weight: 500;
-  transition: color 0.25s;
+  transition: color 0.25s, transform 0.3s var(--ease);
+}
+
+.social-links a svg {
+  flex-shrink: 0;
 }
 
 .social-links a:hover {
   color: var(--accent);
+  transform: translateY(-2px);
 }
-
 /* ---------- 12. Keyframes ---------- */
 @keyframes rise {
   from {
