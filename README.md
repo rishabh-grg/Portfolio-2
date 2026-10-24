@@ -1,85 +1,93 @@
-# Rishabh Garg – Portfolio
 
-A responsive personal portfolio website built with plain HTML, CSS and JavaScript. No frameworks, no build step.
+# Rishabh Garg — Personal Portfolio
 
-**Live site:** _add your deployed link here_
+A personal portfolio website showcasing my background, skills, projects, education, and experience as a first-year B.Tech student specializing in Artificial Intelligence and Machine Learning at KIET Deemed to be University.
 
-## Features
+## 🌐 Live Website
 
-- Responsive layout for phones, tablets and desktops
-- Light and dark theme that follows the visitor's device setting
-- Animated hero section with a typing effect
-- Mobile hamburger menu and active-section highlighting in the navbar
-- Sections for About, Skills, Projects, Education & Experience and Contact
-- Contact form that sends messages by email through a form service
-- Respects the "reduce motion" accessibility setting
+[View My Portfolio](https://portfolio-psi-ten-51.vercel.app/)
 
-## Tech Stack
+## ✨ Features
 
-- HTML5
-- CSS3 (custom properties, Grid, Flexbox, animations)
-- Vanilla JavaScript
+- **Responsive Design:** Adapts to different screen sizes, including mobile, tablet, and desktop.
+- **Modern UI:** Clean layout with subtle animations, gradient effects, and a minimal design.
+- **Dark Mode:** Automatically adapts to the user's system color scheme.
+- **Mobile Navigation:** Interactive hamburger menu for smaller screens.
+- **Active Navigation:** Highlights the current section while scrolling.
+- **About Me:** Introduction to my background and interests.
+- **Skills Section:** Highlights programming and web development skills.
+- **Projects Showcase:** Displays projects with descriptions, technology tags, and links.
+- **Education & Experience:** Presents my academic background and experience timeline.
+- **Contact Form:** Includes fields for name, email, subject, and message.
+- **Accessibility:** Includes semantic HTML, accessible navigation labels, and reduced-motion support.
 
-## Project Structure
+## 🛠️ Technologies Used
 
-```
+- **HTML5** — Website structure and content.
+- **CSS3** — Styling, responsive layouts, animations, and dark mode.
+- **JavaScript** — Mobile navigation, active section detection, and contact form handling.
+- **Google Fonts** — Bricolage Grotesque and Figtree.
+- **Vercel** — Website deployment.
+
+## 📂 Project Structure
+
+```text
 portfolio/
+│
 ├── index.html
-├── css/
-│   └── style.css
+├── style.css
 ├── js/
 │   └── script.js
-├── Assets/
+│
+├── assets/
+│   ├── favicon.ico
+│   ├── resume.pdf
 │   └── Images/
 │       ├── Profile.png
 │       └── netflix-clone.jfif
+│
 └── README.md
 ```
 
-> Folder and file names are case-sensitive on most hosts (Vercel, GitHub Pages), so keep the capitalization in `index.html` identical to the real files.
+*Note: Keep your actual folder and file names consistent with the paths used in your HTML.*
 
-## Getting Started
+## 🚀 Run Locally
 
-1. Clone the repository
+1. Clone the repository:
+
    ```bash
-   git clone https://github.com/rishabh-grg/<your-repo-name>.git
+   git clone https://github.com/rishabh-grg/portfolio.git
    ```
-2. Open the folder
+
+2. Open the project folder:
+
    ```bash
-   cd <your-repo-name>
+   cd portfolio
    ```
-3. Open `index.html` in your browser, or use the Live Server extension in VS Code.
 
-## Setting Up the Contact Form
+3. Open `index.html` in your browser, or use the **Live Server** extension in Visual Studio Code.
 
-The form is ready, but it needs an email service to deliver messages.
+No build tools or package installation are required.
 
-1. Create a free account with a service such as [Formspree](https://formspree.io) or [Web3Forms](https://web3forms.com).
-2. Copy the endpoint URL they give you.
-3. In `index.html`, replace `action="#"` on the contact form with that URL.
+## 💻 Featured Project
 
-## Customizing
+### Netflix Clone
 
-- **Colors and fonts:** edit the variables at the top of `css/style.css` (the `:root` block).
-- **Text and links:** edit `index.html`.
-- **Resume:** place your file at `assets/resume.pdf`, or update the "Download CV" link in `index.html`.
+A Netflix-inspired website recreating the landing page and browsing layout using HTML and CSS.
 
-## Deployment
+- **Technologies:** HTML, CSS
+- **Live Demo:** https://netflix-clone-rouge-tau.vercel.app/
+- **GitHub:** https://github.com/rishabh-grg
 
-The site is static, so it works on any static host:
+## 📬 Contact
 
-- **Vercel:** import the repository and deploy
-- **GitHub Pages:** Settings → Pages → select the `main` branch
+- **GitHub:** [rishabh-grg](https://github.com/rishabh-grg)
+- **LinkedIn:** [Rishabh Garg](https://www.linkedin.com/in/rishabh-garg-bb240441b/)
 
-## Projects Featured
+For inquiries or collaboration, use the contact form on the portfolio website.
 
-- **Netflix Clone:** [Live demo](https://netflix-clone-rouge-tau.vercel.app/)
+*Note: The contact form requires a configured form service endpoint to send messages. It will not send emails until that service is connected.*
 
-## Contact
+---
 
-- GitHub: [rishabh-grg](https://github.com/rishabh-grg)
-- LinkedIn: [Rishabh Garg](https://www.linkedin.com/in/rishabh-garg-bb240441b/)
-
-## License
-
-This project is open source. Add a license of your choice (for example MIT) if you want others to reuse it.
+Built with HTML, CSS, and JavaScript by Rishabh Garg.
